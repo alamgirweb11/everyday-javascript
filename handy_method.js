@@ -55,4 +55,23 @@ const objSome = [
          // return true
  })
 
- console.log(students)
+//  console.log(students)
+
+/**
+ * every method
+ * it return true/false if condition is true for array every single element
+ */
+
+const evArray = [12,12,12,12,12]
+const applyEvery1 = evArray.every(function(item){
+        return item === 12
+})
+
+console.log(applyEvery1) // return true
+
+const evArray2 = [12,12,12,12,12,13,13]
+const applyEvery2 = evArray2.every(function(item){
+        return item === 12
+})
+
+console.log(applyEvery2) // return false
