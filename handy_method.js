@@ -75,3 +75,23 @@ const applyEvery2 = evArray2.every(function(item){
 })
 
 console.log(applyEvery2) // return false
+
+// every method accepted argument example
+evArray2.every((currentElement, index, theArray) => {
+   console.log(`Current Element: ${currentElement}`)
+   console.log(`Index: ${index}`)
+   console.log(`The Array: ${theArray}`)
+   return true
+})
+
+const evNumArr = [1, 1, 1, 3, 4, 5, 6, 7, 8, 9]
+evNumArr.every(element => {
+   console.log(`${element} is printed`);
+   return element === 1;
+})
+
+// apply it an object
+const isNameAvailable = objSome.every(anObj => anObj.name)
+const isPhoneAvailable = objSome.every(anObj => anObj.phone)
+
+console.log(isNameAvailable, isPhoneAvailable)
