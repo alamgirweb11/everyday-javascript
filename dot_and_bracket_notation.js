@@ -6,3 +6,9 @@ const person = {
  }
 
 console.log(person.name)
+
+// bracket notation
+const personName = 'name'
+
+console.log(person.personName) // return undefined
+console.log(person[personName]) // Abir Ahmed
