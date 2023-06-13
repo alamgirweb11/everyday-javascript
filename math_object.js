@@ -11,3 +11,9 @@ console.log(Math.min(1, 2, 3, 4, 5, 6, 7, 8, 9, 0))
 console.log(Math.floor(10.99))
 // Math.round work base on float value
 console.log(Math.round(10.10))
+/** 
+* Math.random() its generate random number within 0, 1
+* extend number from 0,1 multiply with this number which value want
+*/ 
+console.log(Math.random())
+console.log(Math.random() * 100)
