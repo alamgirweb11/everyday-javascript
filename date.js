@@ -9,3 +9,6 @@ console.log(new Date())
 // check type of date
 const date = Date()
 console.log(typeof date)
+// date object
+const dateObj = new Date()
+console.log(typeof dateObj) // object
