@@ -54,3 +54,23 @@ console.log(dateObj.getUTCMinutes())
 console.log(dateObj.getUTCMilliseconds())
 console.log(dateObj.getUTCMonth())
 console.log(dateObj.getUTCSeconds())
+
+// example of set date
+/**
+ * setDate()  // set date like month
+ * setFullYear()  // set year
+ * setHours()  // set hours
+ * setMilliseconds()  // set milliseconds
+ * setMinutes()  // set minutes
+ * setMonth()  // set month
+ * setSeconds()  // set seconds
+ * setTime()  // set time
+ */
+
+console.log(dateObj.setDate(5))
+console.log(dateObj.setFullYear(2023))
+console.log(dateObj.setHours(5))
+console.log(dateObj.setMilliseconds(5000))
+console.log(dateObj.setMonth(5))
+console.log(dateObj.setSeconds(60))
+console.log(dateObj.setTime(6))
