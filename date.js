@@ -74,3 +74,21 @@ console.log(dateObj.setMilliseconds(5000))
 console.log(dateObj.setMonth(5))
 console.log(dateObj.setSeconds(60))
 console.log(dateObj.setTime(6))
+
+// example of set date based on UTC
+/**
+ * setUTCDate()  // set date like month
+ * setUTCFullYear()  // set year
+ * setUTCHours()  // set hours
+ * setUTCMilliseconds()  // set milliseconds
+ * setUTCMinutes()  // set minutes
+ * setUTCMonth()  // set month
+ * setUTCSeconds()  // set seconds
+ */
+console.log(dateObj.setUTCDate(5))
+console.log(dateObj.setUTCFullYear(2023))
+console.log(dateObj.setUTCHours(5))
+console.log(dateObj.setUTCMilliseconds(5000))
+console.log(dateObj.setUTCMinutes(5))
+console.log(dateObj.setUTCMonth(6))
+console.log(dateObj.setUTCSeconds(30))
