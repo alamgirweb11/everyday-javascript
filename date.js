@@ -92,3 +92,35 @@ console.log(dateObj.setUTCMilliseconds(5000))
 console.log(dateObj.setUTCMinutes(5))
 console.log(dateObj.setUTCMonth(6))
 console.log(dateObj.setUTCSeconds(30))
+
+// effective date methods
+/**
+ * toDateString() // showing date as string
+ * toUTCString() // UTC wise date show
+ * toISOString() // show date as ISO format
+ * toJSON() // show date like as string
+ * toLocaleDateString() // it take two arguments 1. language, 2. options, (means date formatting)
+ * toLocaleString() // same as toLocaleDateString()
+ * toLocaleTimeString() // same as above two methods
+ * toString() // return date as string
+ * toTimeString() // return human readable date
+ * toUTCString() // return UTC type wise date string
+ * valueOf() // return milliseconds of date
+ */
+
+console.log(dateObj.toDateString())
+console.log(dateObj.toDateString())
+console.log(dateObj.toISOString())
+console.log(dateObj.toJSON())
+console.log(dateObj.toLocaleDateString('bn-BD', {day: 'numeric', month: 'long', year: 'numeric'}))
+console.log(dateObj.toLocaleString('en-US'))
+console.log(dateObj.toDateString(undefined, { 
+    hour: 'numeric', 
+    minute: 'numeric', 
+    second: 'numeric',
+    hour12: true 
+  }))
+console.log(dateObj.toString())
+console.log(dateObj.toTimeString())
+console.log(dateObj.toUTCString())
+console.log(dateObj.valueOf())
