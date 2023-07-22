@@ -21,3 +21,8 @@ if(false) {
  * undefined
  * !anythingTrue
  */
+
+console.log(true || false) // return true
+console.log(false || true) // return true
+console.log(false || false) // return false
+console.log(true || true) // return true
