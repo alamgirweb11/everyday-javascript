@@ -26,3 +26,5 @@ console.log(true || false) // return true
 console.log(false || true) // return true
 console.log(false || false) // return false
 console.log(true || true) // return true
+console.log('Go to Class' || 'Go to Visit') // go to class
+console.log(undefined || 'Go to Visit') // go to visit
