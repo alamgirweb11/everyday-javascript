@@ -28,3 +28,8 @@ console.log(false || false) // return false
 console.log(true || true) // return true
 console.log('Go to Class' || 'Go to Visit') // go to class
 console.log(undefined || 'Go to Visit') // go to visit
+
+const empty = ''
+const something = 'Eat'
+const work = empty || something
+console.log(work) // return eat
