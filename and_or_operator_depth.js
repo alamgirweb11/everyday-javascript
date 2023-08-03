@@ -33,3 +33,9 @@ const empty = ''
 const something = 'Eat'
 const work = empty || something
 console.log(work) // return eat
+
+const aa = ''
+let bb //cause const don't allow empty variable initialization
+const cc = 'Hello'
+const dd = 'A Lot'
+console.log(aa || bb || cc || dd) // return hello
