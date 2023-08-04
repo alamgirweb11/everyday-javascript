@@ -39,3 +39,19 @@ let bb //cause const don't allow empty variable initialization
 const cc = 'Hello'
 const dd = 'A Lot'
 console.log(aa || bb || cc || dd) // return hello
+
+const userOr = {
+   name: 'Abir Ahmed'
+}
+const userOrName = userOr.name
+const userOrAgeTry = userOr.age
+let userOrAgeTry2
+if(userOr.age) {
+   userOrAgeTry2 = userOr.age
+} else {
+   userOrAgeTry2 = 'User Age Not Found'
+}
+// shorthand
+//if(userOr.age) userOrAgeTry2 = userOr.age
+//else userOrAgeTry2 = 'User Age Not Found'
+console.log(userOrAgeTry2) // return User Age Not Found
