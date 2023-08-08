@@ -54,4 +54,13 @@ if(userOr.age) {
 // shorthand
 //if(userOr.age) userOrAgeTry2 = userOr.age
 //else userOrAgeTry2 = 'User Age Not Found'
+// single line
+// const userOrAge = userOr.age || 'Age Not Found'
 console.log(userOrAgeTry2) // return User Age Not Found
+
+const aFunc = () => {
+   console.log('Print Me!')
+}
+
+console.log(true || aFunc()) // return true
+console.log(false || aFunc()) // return print me
