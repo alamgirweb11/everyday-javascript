@@ -64,3 +64,13 @@ const aFunc = () => {
 
 console.log(true || aFunc()) // return true
 console.log(false || aFunc()) // return print me
+
+/**
+ * example of AND && operator
+ * && operator works only both expression is true
+ */
+console.log(true && false) // return false
+console.log(true && true) // return true
+console.log(false && true) // return false
+true && console.log('Eat') // return Eat
+false && console.log('Eat') // return false
