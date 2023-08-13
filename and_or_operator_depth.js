@@ -74,3 +74,16 @@ console.log(true && true) // return true
 console.log(false && true) // return false
 true && console.log('Eat') // return Eat
 false && console.log('Eat') // return false
+
+const anoVar = 'Me' && 'You'
+console.log(anoVar) // return You
+const anoVar2 = false && 'Anything'
+console.log(anoVar2) // return false
+const userAnd = {
+   name: 'Abir Ahmed'
+}
+if(userAnd.name) {
+   console.log(`Name is: ${userAnd.name}`) // return Name is Abir Ahmed
+} 
+// using AND operator
+userAnd.name && console.log(`Name is: ${userAnd.name}`) // return Name is Abir Ahmed
