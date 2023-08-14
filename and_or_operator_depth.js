@@ -87,3 +87,14 @@ if(userAnd.name) {
 } 
 // using AND operator
 userAnd.name && console.log(`Name is: ${userAnd.name}`) // return Name is Abir Ahmed
+if(userAnd.age) {
+   console.log(`Age is: ${userAnd.age}`) // return undefined
+}
+userAnd.age && console.log(`Age is: ${userAnd.age}`) // return undefined
+userAnd.name && userAnd.age && console.log(`${userAnd.name} is ${userAnd.age} years old!`) // return undefined
+(userAnd.name ||userAnd.age) && console.log(`Found: ${userAnd.name || userAnd.age}`) // return Found: Abir Ahmed
+const anoFunc = () => {
+   console.log('Print Me!')
+} 
+true && anoFunc() // return Print Me!
+false && anoFunc() // return false
