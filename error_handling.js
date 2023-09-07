@@ -36,3 +36,19 @@ try {
 } finally {
    console.log('I will run always');
 }
+
+// error object
+const anError = new Error('This is a error object')
+console.log(anError) // return Error: This is a error object at ....
+const ageNew = 17;
+try {
+   if(ageNew < 18) {
+      throw new Error('You are too young');
+   } else {
+      console.log('You are adult');
+   }
+} catch(err) {
+   console.log(err);
+}
+
+// output: You are too young at ...
