@@ -33,3 +33,26 @@ console.log('Addition of 2 + 2 is: %s', (2 + 2))
 const myName = 'Abir Ahmed';
 console.log(`My name is ${myName}`)
 console.log('%cAbir Ahmed', 'font-size: 50px; background-color: red')
+
+// console table
+const anArr = ['Salam', 'Barkat', 'Rafiq', 'Jabbar']
+console.table(anArr)
+const anObj = {
+    name: 'Abir Ahmed',
+    age: 1,
+    canWalk: true,
+    canTalk: true,
+    nationality: 'Bangladeshi',
+    gender: 'Male'
+ }
+ console.table(anObj)
+
+ // code execution time count
+ console.time();
+for(let i = 0; i < 1000; i++) {
+   console.log('Fake Time');
+}
+console.timeEnd()
+
+// warning message
+console.warn('A Simple Warning')
